@@ -44,8 +44,6 @@ A key press or click activates browser audio. Insertion is rejected when the pos
 
 This is a single-player coursework game designed for a keyboard and mouse. Timers use frame counts and the physics advances by a fixed step per draw, so timing can vary on slower devices. The best score is stored only for the current page session. Mobile touch controls and online multiplayer are not implemented.
 
-The portfolio copy passed JavaScript syntax, local asset-reference checks and a basic browser smoke test in headless Microsoft Edge. The browser check covered canvas rendering, all three mode selections, player insertion in practice mode, acceleration, steering and the mute toggle. The audio asset loaded successfully, but playback was not listened to. Full gameplay, scoring and cross-browser behaviour have not been exhaustively tested.
-
 ## Credits
 
 Created by Faizan Ilyas as part of the University of London BSc Computer Science programme. Rendering uses [p5.js](https://p5js.org/), audio uses [p5.sound](https://p5js.org/reference/p5.sound/), and physics uses [Matter.js](https://brm.io/matter-js/). Library notices and upstream license texts are retained in `libraries/`. The bundled arena audio came with the project archive; its original source and redistribution terms have not been established. No blanket license is assigned to the project or its assets.
